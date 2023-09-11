@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow{
+    text-shadow: 3px 3px black;
+}
+.bb{
+    border-image:  linear-gradient( -90deg, #FD9C00,#1C7C9C, #1D9AC4 ) 1
+}
+.box{
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box img{
+    width: 90%;
+    padding: 20px;
+
+}
+.conzer{
+    width: 80%;
+    margin: auto;
+}
