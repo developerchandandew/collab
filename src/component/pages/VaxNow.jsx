@@ -7,7 +7,7 @@ const VaxNow=()=>{
         <>
         <Navigation/>
             <div className="w-full  bg-[url('images/initiative/vaxnow/vaxbg-1.png')] bg-cover bg-no-repeat md:h-[80vh] xl:h-[90vh]">
-                <img src="images/initiative/vaxnow/vaxbg-1.png" alt="vaxnow page" className="absolute top-0 left-0 h-full" />
+                <img src="images/initiative/vaxnow/vaxbg-1.png" alt="vaxnow page" className="absolute top-0 left-0 h-full -z-10" />
                 <h1 className="text-[#1C7C9C] font-bold text-xl text-center py-10 md:text-3xl">Let's #BounceForward with Vaccination</h1>
 
                 <img src="images/initiative/vaxnow/vax-bg.png" alt="home" className="md:my-20 xl:w-full"/>
