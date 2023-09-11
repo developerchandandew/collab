@@ -9,6 +9,7 @@ const About = () => {
             <Navigation />
 
             <div className="w-full h-[100vh] bg-[url('images/about/main-bg.jpeg')] bg-cover bg-no-repeat relative">
+                <img src="images/about/main-bg.jpeg" alt="about page" className="absolute top-0 left-0 h-full" />
             <div className="md:bg-gradient-to-r from-cyan-500 to-[#1C7C9C2B] opacity-[0.8] w-full h-full z-auto absolute top-0 left-0"></div>
                 <div className="w-full bg-[#1C7C9C] text-white absolute bottom-0 left-0 md:bg-transparent md:top-36 md:w-3/5 lg:w-2/5 lg:top-48">
                     <p className="text-center p-3 pt-6 lg:text-2xl">Community Action Collab (CAC) is a dynamic humanitarian emergency platform that builds the resilience of Vulnerable People and their institutions in their everyday emergencies and is ready for future humanitarian crises (climate & health). The platform orchestrates and influences the actions and decisions of 360 partners, governments and other alliances, enabling them to solve issues affecting the vulnerable and ensuring access to critical livelihood, health, social protection and climate impact solutions.</p>

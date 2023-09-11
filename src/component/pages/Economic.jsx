@@ -13,6 +13,7 @@ const Economic=()=>{
         <Navigation/>
 
             <div className="w-full h-[100vh] relative bg-[url('images/initiative/economics/economic-bg.png')] bg-right bg-no-repeat bg-cover md:bg-center">
+            <img src="images/initiative/economics/economic-bg.png" alt="econoic page" className="absolute top-0 left-0 h-full" />
             <div className="md:bg-gradient-to-r from-cyan-500 to-[#1C7C9C2B] opacity-[0.8] w-full h-[100vh] z-0 absolute top-0 left-0"></div>
             
                 <div className="w-full bg-[#1C7C9C] text-white absolute top-0 text-center md:bg-transparent md:top-40 md:w-2/5 md:ml-10 lg:top-72">

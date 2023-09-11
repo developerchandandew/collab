@@ -8,6 +8,7 @@ const Shilp=()=>{
         <Navigation className='z-10'/>
 
         <div className="w-full h-[90vh] bg-[url('images/initiative/ship/banner_shilp.png')] bg-cover bg-no-repeat z-10 relative">
+        <img src="images/initiative/ship/banner_shilp.png" alt="shilp page" className="absolute top-0 left-0 h-full"/>
         <div className="md:bg-gradient-to-r from-cyan-500 to-[#1C7C9C2B] opacity-[0.8] w-full h-full  absolute top-0 left-0"></div>
 
             <div className="w-full bg-[#1C7C9C] text-white absolute bottom-0 left-0 py-6 text-center md:w-2/5 md:bg-transparent md:top-56 md:text-left md:left-20  ">

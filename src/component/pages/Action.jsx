@@ -7,6 +7,7 @@ const Action = () => {
         <>
             <Navigation />
             <div className="w-full h-[80vh] bg-[url('images/action/actions-bg.jpeg')] bg-center bg-cover bg-no-repeat relative">
+                <img src="images/action/actions-bg.jpeg" alt="action page" className="absolute left-0 top-0 h-full"/>
                 <div className="md:bg-gradient-to-r from-cyan-500 to-[#1C7C9C2B] opacity-[0.8] w-full h-full z-0 absolute top-0 left-0"></div>
 
                 <div className="w-full bg-[#1C7C9C] text-white p-3 absolute left-0 bottom-0 md:w-2/5 md:bg-transparent md:left-12 md:top-28">

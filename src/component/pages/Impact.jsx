@@ -7,6 +7,7 @@ const Impact = () => {
         <>
             <Navigation />
             <div className="w-full h-[90vh] bg-[url('images/impact/impact-bg.png')] bg-cover bg-no-repeat relative">
+                <img src="images/impact/impact-bg.png" alt="imapct page" className="absolute left-0 top-0 h-full"/>
                 <div className="w-full text-white bg-gradient-to-r from-[#1C7C9CF0] to-[#FD9C00E0] h-[34vh] lg:h-[28vh]  absolute bottom-0 p-4 flex justify-between">
                     {/* mobile view */}
                     <div className="w-[30%] p-2 lg:hidden">
